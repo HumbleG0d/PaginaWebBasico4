@@ -65,7 +65,7 @@
   border-radius: 5px;
   padding: 5px 20px;
   text-align: center;
-  width: 90px;
+  width: 95px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -76,7 +76,7 @@
   border-radius: 5px;
   padding: 5px 20px;
   text-align: center;
-  width: 110px;
+  width: 132px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -88,4 +88,93 @@
 .li-sin {
   top: 18px;
   left: 1320px;
+}
+
+.main {
+  margin-top: 200px;
+  position: relative;
+  color: #4c4d5f;
+}
+
+.title {
+  position: absolute;
+  left: 400px;
+}
+
+.targets {
+  position: absolute;
+  width: 1100px;
+  height: 700px;
+  background-color: red;
+  top: 100px;
+  left: 400px;
+}
+
+.div-work {
+  width: 450px;
+  height: 550px;
+  background-color: #fff;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  border: 1px solid #dde4e9;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px;
+}
+
+.div-title1,
+.div-price,
+.hr,
+.list-workflow {
+  position: absolute;
+}
+.div-title1 {
+  top: 50px;
+  left: 70px;
+  font-size: 1.5em;
+}
+
+.div-price {
+  top: 80px;
+  left: 70px;
+  font-size: 2em;
+}
+
+.div-price-n {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.hr {
+  top: 200px;
+  left: 80px;
+  width: 300px;
+  height: 1px;
+  background-color: #00b289;
+}
+
+.list-workflow {
+  top: 220px;
+  left: 40px;
+}
+
+.li-work {
+  padding-left: 20px;
+  list-style: none;
+  line-height: 1.5;
+  background-image: url(/project5/assets/images/check.svg);
+  background-position: top 0px left -6px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.a-buttom {
+  bottom: 200px;
+  left: 150px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background-color: #00b289;
+  border: 2px solid #00b289;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
