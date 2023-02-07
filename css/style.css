@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  position: relative;
+  overflow: hidden;
+}
+
+.nav,
+.nav2 {
+  position: fixed;
+}
+
+.ul {
+  position: relative;
+}
+
+.a,
+.li {
+  text-decoration: none;
+  list-style: none;
+  color: #4c4d5f;
+  position: absolute;
+}
+
+.a-img {
+  top: 0px;
+  left: 270px;
+}
+
+.a-bansai {
+  color: #00b289;
+  font-size: 2em;
+  top: 0px;
+  left: 305px;
+  font-family: "Roboto", sans-serif;
+}
+.li-product {
+  top: 10px;
+  left: 620px;
+}
+
+.li-templates {
+  top: 10px;
+  left: 730px;
+}
+
+.li-pricing {
+  top: 10px;
+  left: 840px;
+}
+
+.li-reviews {
+  top: 10px;
+  left: 930px;
+}
+
+.a-log {
+  color: #00b289;
+  background-color: transparent;
+  border: 2px solid #00b289;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-align: center;
+  width: 90px;
+  font-family: "Roboto", sans-serif;
+}
+
+.a-sin {
+  color: #fff;
+  background-color: #00b289;
+  border: 2px solid #00b289;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-align: center;
+  width: 110px;
+  font-family: "Roboto", sans-serif;
+}
+
+.li-log {
+  top: 18px;
+  left: 1200px;
+}
+
+.li-sin {
+  top: 18px;
+  left: 1320px;
+}
