@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -9,9 +9,13 @@
   overflow: hidden;
 }
 
-.nav,
-.nav2 {
+.nav {
   position: fixed;
+  background-color: #fff;
+  border: 1px solid #dde4e9;
+  height: 100px;
+  width: 100%;
+  z-index: 20;
 }
 
 .ul {
@@ -81,12 +85,12 @@
 }
 
 .li-log {
-  top: 18px;
+  top: 6px;
   left: 1200px;
 }
 
 .li-sin {
-  top: 18px;
+  top: 6px;
   left: 1320px;
 }
 /*Fin barra de navegacion*/
@@ -200,11 +204,139 @@
   padding: 10px 20px;
 }
 
-.charg-work {
+.charg-work,
+.paragraph {
   position: absolute;
+}
+
+.charg-work {
   width: 1100px;
-  height: 500px;
-  background-color: red;
+  height: 800px;
   top: 800px;
   left: 400px;
+}
+
+.paragraph {
+  top: 100px;
+  left: 300px;
+  font-size: 2em;
+}
+
+.collaborators,
+.partners,
+.bonsai {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #dde4e9;
+  box-shadow: 1px 1px 8px;
+}
+.collaborators,
+.partners {
+  width: 900px;
+  height: 130px;
+}
+
+.bonsai {
+  width: 900px;
+  height: 140px;
+}
+
+.collaborators {
+  top: 220px;
+  left: 100px;
+}
+
+.partners {
+  top: 420px;
+  left: 100px;
+}
+
+.bonsai {
+  bottom: 30px;
+  left: 100px;
+}
+
+.h1-coll,
+.h1-part,
+.h1-bonsai {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 30px;
+}
+
+.coll-par,
+.part-par,
+.bons-par {
+  margin-left: 30px;
+}
+
+.span-coll {
+  position: absolute;
+  top: 70px;
+  right: 30px;
+  font-size: 2em;
+}
+
+.price-part,
+.price-bonsai {
+  position: absolute;
+}
+
+.price-part {
+  top: 50px;
+  right: 20px;
+}
+
+.price-bonsai {
+  top: 45px;
+  right: 20px;
+}
+
+.price {
+  font-size: 2em;
+}
+
+.a-bonsai {
+  color: #00b289;
+  font-size: 0.8em;
+  margin-left: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bussines {
+  position: absolute;
+  width: 920px;
+  height: 300px;
+  top: 1700px;
+  left: 480px;
+  background-color: #d8ecfb;
+  border: 1px solid #d8ecfb;
+  box-shadow: 1px 1px 5px #d8ecfb;
+  border-radius: 3px;
+}
+
+.p-buss {
+  position: absolute;
+  font-size: 2.5em;
+  top: 100px;
+  left: 100px;
+  color: #4c4d5f;
+}
+
+.span-buss {
+  color: #00b289;
+}
+
+.a-buss {
+  position: absolute;
+  top: 160px;
+  right: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-size: bold;
+  background-color: #00b289;
+  border: 1px solid #00b289;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
 }
