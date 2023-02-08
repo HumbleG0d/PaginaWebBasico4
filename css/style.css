@@ -89,7 +89,7 @@
   top: 18px;
   left: 1320px;
 }
-
+/*Fin barra de navegacion*/
 .main {
   margin-top: 200px;
   position: relative;
@@ -104,39 +104,60 @@
 .targets {
   position: absolute;
   width: 1100px;
-  height: 700px;
-  background-color: red;
+  height: 600px;
   top: 100px;
   left: 400px;
 }
 
-.div-work {
+.div-work,
+.div-workp {
   width: 450px;
   height: 550px;
   background-color: #fff;
   position: absolute;
-  top: 20px;
-  left: 10px;
-  border: 1px solid #dde4e9;
   border-radius: 5px;
+  border: 1px solid #dde4e9;
   box-shadow: 1px 1px 8px;
 }
 
-.div-title1,
+.div-work {
+  top: 20px;
+  left: 10px;
+}
+
+.div-workp {
+  top: 20px;
+  right: 80px;
+}
+
+.div-title,
 .div-price,
 .hr,
 .list-workflow {
   position: absolute;
 }
+
 .div-title1 {
   top: 50px;
   left: 70px;
   font-size: 1.5em;
 }
 
-.div-price {
+.div-title2 {
+  top: 50px;
+  right: 230px;
+  font-size: 1.5em;
+}
+
+.div-price1 {
   top: 80px;
   left: 70px;
+  font-size: 2em;
+}
+
+.div-price2 {
+  top: 80px;
+  right: 165px;
   font-size: 2em;
 }
 
@@ -169,7 +190,7 @@
 }
 
 .a-buttom {
-  bottom: 200px;
+  bottom: 50px;
   left: 150px;
   font-family: "Roboto", sans-serif;
   color: #fff;
@@ -177,4 +198,13 @@
   border: 2px solid #00b289;
   border-radius: 5px;
   padding: 10px 20px;
+}
+
+.charg-work {
+  position: absolute;
+  width: 1100px;
+  height: 500px;
+  background-color: red;
+  top: 800px;
+  left: 400px;
 }
